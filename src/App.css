@@ -1,0 +1,24 @@
+.form {
+  outline: 2px solid;
+}
+
+.form:not(:placeholder-shown):valid {
+  outline-color: rgb(40, 243, 40);
+  transition: 0.5s;
+}
+.form:not(:placeholder-shown):invalid {
+  outline-color: rgb(243, 40, 40);
+  transition: 0.5s;
+}
+.form:focus:user-invalid {
+  outline-color: rgb(236, 201, 43);
+  transition: 0.5s;
+}
+.button-box:hover {
+  background-color: limegreen;
+  color: wheat;
+  transition: 0.5s;
+}
+.table-row:hover {
+  transition: 0.5s;
+}
